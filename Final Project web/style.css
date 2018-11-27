@@ -23,3 +23,31 @@ header nav ul li a{
     color: white;
     text-decoration: none;
 }
+#Portfolio_card{
+    background-color:#595a5d;
+    width: 40%;
+    margin: 0 auto;
+    padding:10px 10px 10px 10px;
+
+}
+#Portfolio_card img{
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+#description{
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+#owner{
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+.date{
+    display: block;
+    margin: auto;
+    width: 80%;
+}
