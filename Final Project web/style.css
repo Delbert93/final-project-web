@@ -1,3 +1,6 @@
+body{
+    align-content: center;
+}
 header nav{
     background-color: #595a5d;
 }
@@ -23,31 +26,46 @@ header nav ul li a{
     color: white;
     text-decoration: none;
 }
-#Portfolio_card{
-    background-color:#595a5d;
-    width: 40%;
-    margin: 0 auto;
-    padding:10px 10px 10px 10px;
-
+.banner{
+    z-index: -1;
+    width:100%;
+    height: 1000px;
+    filter: brightness(45%)
 }
-#Portfolio_card img{
-    display: block;
-    margin: auto;
-    width: 80%;
+#Hello{
+    position: absolute;
+    color: white;
+    top: 30%;
+    left: 35%;
+    font-size: 300%;
+    text-align: center;
 }
-#description{
-    display: block;
-    margin: auto;
-    width: 80%;
+#Hello, h2{
+    font-family:  "Times New Roman", Times, serif;
 }
-
-#owner{
-    display: block;
-    margin: auto;
-    width: 80%;
+#Student_Button{
+    text-decoration: none;
+    border: solid white 2pt;
+    border-radius: 8px;
+    color: white;
+    font-size: 40%;
+    padding-top: 12px;
+    padding-left: 37px;
+    padding-bottom: 12px;
+    padding-right: 37px;
+    text-decoration: none;
+    background-color: rgba(0,0,0,0)
 }
-.date{
-    display: block;
-    margin: auto;
-    width: 80%;
+#Portfolio_Button{
+    text-decoration: none;
+    border: solid white 2pt;
+    border-radius: 8px;
+    color: white;
+    font-size: 40%;
+    padding-top: 12px;
+    padding-left: 37px;
+    padding-bottom: 12px;
+    padding-right: 37px;
+    text-decoration: none;
+    background-color: #90fcf9;
 }
