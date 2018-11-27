@@ -1,0 +1,71 @@
+body{
+    align-content: center;
+}
+header nav{
+    background-color: #595a5d;
+}
+header nav ul{
+    width:20%;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    padding: 25px 10px 25px 10px;  
+}
+header nav ul li{
+    float: left;
+    padding-right: 10px;
+}
+#icon_meue{
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+header nav ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+.banner{
+    z-index: -1;
+    width:100%;
+    height: 1000px;
+    filter: brightness(45%)
+}
+#Hello{
+    position: absolute;
+    color: white;
+    top: 30%;
+    left: 35%;
+    font-size: 300%;
+    text-align: center;
+}
+#Hello, h2{
+    font-family:  "Times New Roman", Times, serif;
+}
+#Student_Button{
+    text-decoration: none;
+    border: solid white 2pt;
+    border-radius: 8px;
+    color: white;
+    font-size: 40%;
+    padding-top: 12px;
+    padding-left: 37px;
+    padding-bottom: 12px;
+    padding-right: 37px;
+    text-decoration: none;
+    background-color: rgba(0,0,0,0)
+}
+#Portfolio_Button{
+    text-decoration: none;
+    border: solid white 2pt;
+    border-radius: 8px;
+    color: white;
+    font-size: 40%;
+    padding-top: 12px;
+    padding-left: 37px;
+    padding-bottom: 12px;
+    padding-right: 37px;
+    text-decoration: none;
+    background-color: #90fcf9;
+}
