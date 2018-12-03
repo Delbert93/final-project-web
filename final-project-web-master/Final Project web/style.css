@@ -138,6 +138,12 @@ header nav ul li a{
     width: 80%;
 }
 #top_Students{
+    display:flex;
+    flex: 1 1 auto; 
+    flex-wrap: wrap; 
+    justify-content: center;  
+    text-align: center; 
+    align-items: stretch; 
     background-color: #595a5d;
 }
 #top_Students_Hedaer{
@@ -146,19 +152,57 @@ header nav ul li a{
     text-align: center;
 }
 #student_1{
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     width: 15%;
     background: white;
     text-align: center;
 }
+#student_1_picture{
+    padding-top: 15%;
+    padding-bottom: 15%;
+    border-radius: 50%;
+    width:50%;
+}
+#student_1 h5{
+    font-size: 120%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#student_1 h3{
+    font-size: 150%;
+    padding-bottom: 5%;
+}
 #View_Portfolio{
+    margin-bottom: 15%;
+    font-size: 100%;
+    padding: 3% 5% 3% 5%;
+    text-decoration: none;
+    border: solid;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    background-color: #75b8c8;
+}
+#View_Portfolio:hover{
+    color: #595a5d;
+    background-color: rgba(0,0,0,0);
+    transition-duration: .2s;
     text-decoration: none;
     border-radius: 8px;
-    border: 0px;
-    color: #75b8c8;
-    text-decoration: none;
-    background-color: #90fcf9;
+    
+    border-color: #90fcf9;
+    font-size: 100%;
+    padding: 3% 5% 3% 5%;
 }
-#student_1_picture{
-    border-radius: 100%;
-    height: 150px;
+#Ad{
+    background-image: url(Img/clock.png);
+    background-repeat: no-repeat;
+}
+#calendar_pic{
+    height: 50px;
+    width: 50px;
+
 }
