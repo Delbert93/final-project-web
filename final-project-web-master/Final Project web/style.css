@@ -109,34 +109,6 @@ header nav ul li a{
     margin: auto;
     width: 80%;
 }
-#description{
-    display: block;
-    margin: auto;
-    width: 80%;
-}
-
-#owner{
-    display: block;
-    margin: auto;
-    width: 80%;
-}
-.date{
-    display: block;
-    margin: auto;
-    width: 80%;
-}
-#Student_card{
-
-    background-color:#595a5d;
-    width: 40%;
-    margin: 0 auto;
-    padding:10px 10px 10px 10px;
-}
-#Student_card img{
-    display: block;
-    margin: auto;
-    width: 80%;
-}
 #top_Students_Hedaer{
     color: #595A5d;
     font-size: 40px;
@@ -177,7 +149,7 @@ header nav ul li a{
 #student_1 h3{
     font-size: 150%;
     padding-bottom: 5%;
-    color: whitesmoke;;
+    color: whitesmoke;
 }
 #View_Portfolio{
     margin-bottom: 15%;
