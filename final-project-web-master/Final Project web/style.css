@@ -97,18 +97,53 @@ header nav ul li a{
     padding-right: 37px;
     
 }
+#portfolio{
+
+    background-color: #75b8c8;
+    border-top: 0px;
+
+}
 #Portfolio_card{
     background-color:#595a5d;
     width: 20%;
     margin: 0 auto;
     padding:10px 10px 10px 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 30%;
+
+}
+#Portfolio_card, #owner, #description{
+    padding-top:10px;
+    padding-bottom: 40px;
+
 
 }
 #Portfolio_card img{
+    margin-top: 10px;
     display: block;
     margin: auto;
     width: 80%;
+    border-radius: 45%;
 }
+#Portfolio_cardsub{
+background-color: #595a5d;
+width: 18%;
+margin: 0 auto;
+padding:10px 10px 10px 10px;
+margin-bottom: 20px;
+
+}
+
+#Portfolio_cardsub img{
+    margin-top: 10px;
+    display: block;
+    margin: auto;
+    width: 80%;
+    border-radius: 45%;
+}
+
+
 #description{
     display: block;
     margin: auto;
@@ -136,6 +171,7 @@ header nav ul li a{
     display: block;
     margin: auto;
     width: 80%;
+   
 }
 #top_Students{
     display:flex;
