@@ -113,7 +113,7 @@ header nav ul li a{
     color: #595A5d;
     font-size: 40px;
     text-align: center;
-    background-color: #ffffff;
+    padding-top: 1.5%;
 }
 #top_Students{
     display:flex;
@@ -204,4 +204,184 @@ header nav ul li a{
     font-size: 120%;
     padding-left: 2%;
     padding-right: 2%;
+}
+#spacer{
+    padding-bottom: 4.9%;
+}
+#About_us_header{
+    color: #595A5d;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 1.5%;
+}
+#About_us_div{
+    display:flex;
+    flex: 1 1 auto; 
+    flex-wrap: wrap; 
+    justify-content: center;  
+    text-align: center; 
+    align-items: stretch; 
+    background-color: #ffffff;
+}
+#owner_1{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 4.5%;
+    width: 15%;
+}
+#owner_1_picture{
+    border: solid #75b8c8;
+    border-radius: 8%;
+    width:70%;
+}
+#owner_1 h5{
+    text-align: left;
+    font-weight: 80;
+    line-height: 1.5;
+    font-size: 130%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 17%;
+    color: #595A5d;
+}
+#owner_1 h3{
+    text-align: left;
+    padding-top:2%;
+    padding-left: 24%;
+    font-size: 170%;
+    padding-bottom: 5%;
+    color: #75b8c8;
+}
+#about_us_main{
+    text-align: center;
+}
+#About_us_info{
+    text-align: center;
+    font-size: 120%;
+}
+#spacer_aboutus{
+    padding-bottom: 4.9%;
+}
+#top_Students_Hedaer{
+    color: #595A5d;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 1.5%;
+}
+/*to dispaly portfolio on students profile*/
+#top_spacer{
+    padding-top: 2%;
+}
+#portfolio{
+    background-color: whitesmoke;
+}
+#Portfolio_card{
+    margin-bottom: 2%;
+    margin-right: 1.5%;
+    margin-left: 36%;
+    border-radius: 8%; 
+    width: 25%;
+    background: #75b8c8;
+    box-shadow: 10px 10px 8px #595A5d;
+}
+#Portfolio_card h2{
+    text-align: center;
+    font-size: 150%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: whitesmoke;
+}
+#Portfolio_card h3{
+    text-align: center;
+    font-weight: 80;
+    line-height: 1.5;
+    font-size: 150%;
+    padding-top: 11%;
+    padding-bottom: 5%;
+    color: whitesmoke;
+}
+#Portfolio_products{
+    display:flex;
+    flex: 1 1 auto; 
+    flex-wrap: wrap; 
+    justify-content: center;  
+    text-align: center; 
+    align-items: stretch; 
+    background-color: whitesmoke;
+}
+#Portfolio_cardsub{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    border-radius: 8%; 
+    width: 15%;
+    background: #75b8c8;
+    box-shadow: 10px 10px 8px #595A5d;
+    text-align: center;
+}
+#kaydons_portfolio_picture{
+    border-radius: 8%;
+    width:60%;
+}
+#Portfolio_cardsub h2{
+    font-size: 150%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: whitesmoke;
+}
+#Portfolio_cardsub h3{
+    font-weight: 80;
+    line-height: 1.5;
+    font-size: 150%;
+    padding-top: 11%;
+    padding-bottom: 5%;
+    color: whitesmoke;
+}
+/*creat a portfolio*/
+form{
+    padding: 2% 1% 2% 1%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    color: #595A5d;
+    text-align:left;
+    margin-left:25%;
+}
+fieldset{
+    background-color:whitesmoke;
+    width: 70%;
+    font-size: 120%;
+    line-height: 2.5;
+}
+legend{
+    text-align:center;
+    color:#595A5d;
+}
+#name{
+    width:95%;
+    height: 20px;
+}
+#description{
+    height: 80px;
+    width:95%;
+}
+#date_created{
+    height: 20px;
+}
+#submit{
+    margin-left: 45%;
+}
+.highlight {
+    background-color: #FFE0B2;
+}  
+.error {
+    background: #FFCDD2 url(error.png) no-repeat 98% center;
+    box-shadow: 0 0 5px #FF5252;
+    border-color: #FF1744;    
 }
