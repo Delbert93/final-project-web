@@ -30,5 +30,5 @@ window.addEventListener("load",function(){
                 field.classList.add("error");
             }
         }            
-    });
+    });    
 });
